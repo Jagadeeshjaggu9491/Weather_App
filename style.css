@@ -1,0 +1,220 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+/* header starts */
+.header{
+    background-image: url(./assests/cloudiness-clouds-cloudscape-814449.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.nav-link{
+    font-size: large;
+    font-weight: 500;
+   
+}
+.nav-item{
+    padding-left: 30px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.card-head{
+    opacity: 0.6;
+    /* background-color: #3d4444; */
+    color: white;
+}
+.deg{
+    font-size: 120px;
+    font-weight: 600;
+}
+.icon-main{
+    position: relative;
+    bottom: 154px;
+    left: 144px;
+}
+.Mumbai{
+    right: 84px;
+    position: relative;
+}
+.Mumbai h2{
+    position: relative;
+    font-size: 52px;
+    top: 15px;
+    font-weight: 600;
+}
+.fa-sun-o{
+    position: relative;
+    bottom: 78px;
+    left: 234px;
+    font-size: xxx-large;
+}
+.bi-sun{
+    font-size: 83px;
+    position: relative;
+    bottom: 130px;
+    left: 258px;
+    color: white;
+}
+.bi-circle{
+    position: relative;
+    bottom: 150px;
+    left: 137px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.head-temp{
+    color: white;
+}
+.card-header{
+    /* background-color: rgb(29, 118, 207);
+    opacity: .9; */
+}
+
+/* header ends */
+/* Cities starts */
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.cities h5{
+    position: relative;
+    bottom: 64px;
+    left: 23px;
+    color: white;
+}
+.cit{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #442166;
+}
+.cities{
+    column-gap: 37px;
+    margin: 0px 100px;
+    border-radius: 10px;
+
+}
+.cities h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.icon-temp{
+    position: relative;
+    bottom: 85px;
+    left: 89px;
+}
+.card-body h4{
+    font-weight: 600;
+}
+.cities-head{
+    margin-top: 134px;
+}
+
+/* Cities ends */
+/* Search starts */
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+}
+.search input{
+    padding-left: 30px;
+    width: 570px;
+    height: 65px;
+    border: none;
+    box-shadow: 0px 2px 2px 2px rgb(175, 172, 172);
+}
+.fa-search{
+    position: relative;
+    left: -53px;
+    top: -1px;
+    color: grey;
+}
+/* Search ends */
+/* Earth starts */
+.earth{
+    margin-top: 100px;
+    width: 100%;
+}
+/* Earth ends */
+/* News starts */
+.News{
+   
+    margin: 70px;
+
+}
+.news-heading{
+    font-size: 60px;
+    font-weight: 600;
+    color: #442166;
+    margin-top: 150px;
+    position: relative;
+    bottom: 50px;
+}
+.news-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.thunder{
+    position: absolute;
+    /* bottom: 433px; */
+    left: 152px;
+    margin-top: 311px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cloud{
+    bottom: 74px;
+    position: relative;
+    left: 47px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sunny{
+    position: absolute;
+    right: 288px;
+    margin-top: 308px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* News ends */
+/* Footer Starts */
+
+.Footer{
+    height: 280px;
+    overflow: hidden;
+}
+.foot-head{
+    color: white;
+    font-family: "Impact";
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+.foot-nav a{
+    text-decoration: none;
+    color: white;
+
+}
+.foot-contact a{
+    text-decoration: none;
+    color: white;
+}
+.foot-nav,.foot-contact{
+    margin-top: 100px;
+    line-height: 45px;
+}
+
+/* Footer ends */

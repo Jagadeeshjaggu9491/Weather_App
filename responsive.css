@@ -1,0 +1,382 @@
+/*  screen devices (320px - 576px) */
+@media (min-width: 320px) and (max-width: 576px) {
+
+    /* header starts */
+    .deg {}
+
+    .header {
+        padding: 542px;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        bottom: 500px;
+        right: 80px;
+        height: 110px;
+    }
+
+    .nav-link {
+        position: relative;
+        bottom: 274px;
+        right: 68px;
+    }
+
+    .card-head {
+        position: relative;
+        right: 236px;
+        bottom: 300px;
+    }
+
+    .deg {
+        visibility: hidden;
+    }
+
+    .bi-circle {
+        visibility: hidden;
+    }
+
+    .head-date {
+        visibility: hidden;
+    }
+
+    .mumbai {}
+
+    .navbar-toggler-icon {
+        width: 127px;
+        height: 100px;
+    }
+
+    /* header ends */
+
+    /* cities starts */
+    .cit {
+        position: relative;
+        left: 370px;
+    }
+
+    .cities {
+        position: relative;
+        left: 183px;
+        top: 20px;
+    }
+
+    /* cities ends */
+    /* search starts */
+    .input {
+        left: 380px;
+    }
+
+    .fa-search {
+        left: 888px;
+        top: -44px;
+    }
+
+    /* search ends */
+    /* earth starts */
+    .earth {
+        width: 1090px;
+    }
+
+    /* earth ends */
+    /* New starts */
+    .news-heading {
+        position: relative;
+        left: 395px;
+    }
+
+    .News {
+        position: relative;
+        left: 400px;
+    }
+
+    .thunder {
+        left: 64px;
+    }
+
+    .cloud {}
+
+    .sunny {
+        right: 48px;
+    }
+
+    /* New ends */
+    /* Footer starts */
+    .Footer {
+        width: 1090px;
+    }
+
+    .foot-last {
+        right: 60px;
+        position: relative;
+        bottom: 15px;
+    }
+
+    /* Footer ends */
+}
+
+/*  screen devices (577px - 768px) */
+@media (min-width:577px) and (max-width: 768px) {
+    .deg {}
+
+    .header {
+        /* padding: 542px; */
+    }
+
+    .navbar-toggler {
+        position: relative;
+        left: 40px;
+    }
+
+    .nav-link {
+        /* position: relative;
+     bottom: 274px;
+     right: 68px; */
+    }
+
+    .card-head {
+        position: relative;
+        left: 55px;
+    }
+
+    .deg {
+        position: absolute;
+        bottom: 0px;
+        left: 20px;
+    }
+
+    .bi-circle {
+        position: absolute;
+        left: 153px;
+    }
+
+    .head-date {
+        visibility: hidden;
+    }
+
+    .mumbai {
+        margin-top: 183px;
+        left: 64px;
+    }
+
+    .bi-sun {
+        position: absolute;
+        bottom: 61px;
+        left: 303px;
+
+    }
+
+    /* Cities starts */
+
+    .cities h1 {
+        position: absolute;
+        left: 0px;
+        font-size: xx-large;
+    }
+
+    .cities {
+        position: relative;
+        width: 568px;
+        right: 127px;
+    }
+
+    .icon-temp {
+        position: absolute;
+        left: 55px;
+        bottom: 44px;
+    }
+
+    .cit-date {
+        position: absolute;
+        right: 13px;
+        bottom: -13px;
+    }
+
+    .cit-city {
+        position: absolute;
+        right: 8px;
+        bottom: 17px;
+    }
+
+    /* cities ends */
+
+    /* New starts */
+
+    .News {
+        margin-left: 100px;
+    }
+
+    .thunder {
+        left: 164px;
+    }
+
+    .cloud {
+
+        left: 24px;
+    }
+
+    .sunny {
+        right: 213px;
+    }
+
+    .cloud-news-img {
+        margin-top: 46px;
+    }
+
+    /* New ends */
+
+    /* Footer starts */
+    .Footer {
+        width: 578px;
+    }
+
+    .foot-last {
+        right: 64px;
+        position: absolute;
+    }
+
+    /* Footer ends */
+
+    /* Search */
+    .fa-search {
+        left: 514px;
+        position: relative;
+        /* margin-bottom: 10px; */
+        top: -43px;
+    }
+}
+
+/*  screen devices (769px - 992px) */
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    /* header starts */
+    .navbar-toggler {
+        left: 53px;
+        position: relative;
+    }
+
+    .nav-link {
+        position: relative;
+        right: 28px;
+    }
+
+    .card-head {
+        right: 372px;
+    }
+
+    .deg {
+        left: 10px;
+        position: absolute;
+        /* margin-top: 162px; */
+        bottom: 181px;
+    }
+
+    .bi-circle {
+        position: absolute;
+        left: 144px;
+        bottom: 312px;
+    }
+
+    .head-date {
+        position: absolute;
+        /* left: 61px; */
+        right: -34px;
+        margin-left: 43px;
+    }
+
+    .mumbai {
+        margin-top: 180px;
+        left: 40px;
+    }
+
+    .bi-sun {
+        position: absolute;
+        bottom: -43px;
+        left: 330px;
+
+    }
+
+    /* header ends */
+    /* Cities starts */
+
+    .cities h1 {
+        position: absolute;
+        left: 0px;
+        font-size: xx-large;
+    }
+
+    .cities {
+        position: relative;
+        width: 750px;
+        right: 127px;
+    }
+
+    .icon-temp {
+        position: absolute;
+        left: 55px;
+        bottom: 42px;
+    }
+
+    .cit-date {
+        position: absolute;
+        right: 13px;
+        bottom: -13px;
+    }
+
+    .cit-city {
+        position: absolute;
+        right: 8px;
+        bottom: 17px;
+    }
+
+    /* cities ends */
+
+    /* Search */
+    .fa-search {
+        left: -45px;
+        position: relative;
+
+    }
+
+    /* New starts */
+
+    .News {
+        margin-left: 178px;
+       
+    }
+
+    .thunder {
+        left: 251px;
+    }
+
+    .cloud {
+
+        left: 24px;
+    }
+
+    .sunny {
+        right: 320px;
+    }
+
+    .cloud-news-img {
+        margin-top: 40px;
+    }
+
+    /* New ends */
+
+        /* Footer starts */
+        .Footer {
+            width: 767px;
+        }
+    
+        .foot-last {
+            right: 64px;
+            position: absolute;
+        }
+    
+        /* Footer ends */
+
+
+}
+
+/*  screen devices (993px - 1200px) */
